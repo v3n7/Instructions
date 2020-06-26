@@ -1,0 +1,11 @@
+DRIVER=SQL Server
+SERVER_FROM=srv-buh
+SERVER_TO=buh-t
+DATABASE_FROM=AccCorp3
+DATABASE_TO=AccCorp3-t1
+FOLDER_FROM=//srv-buh\C$\backup\
+FOLDER_TO=B:\Backup\
+BACKUP_FOLDER=C:\backup\
+RESTORE_FOLDER=B:\Base\
+UID=sa
+PASSWORD='cre'km1
