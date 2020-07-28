@@ -69,11 +69,12 @@ ssh admin@srv-pgsql-test1
 ```
 Пример вызова:
 ```sh
-./backup_and_restore db_name db_backup_name
-./backup_and_restore UAS_BACKUP UAS 
+./backup_and_restore host db_backup_name db_name
+./backup_and_restore srv-pgsql UAS UAS_BACKUP
 ```
 Где:
 ```sh
+host - адрес сервера на котором находится база db_name
 db_name - база в которую нам нужно восстановить бэкап
 db_backup_name - база из которой мы делаем бэкап
 После завершения работы скрипта файл бэкапа удаляется
